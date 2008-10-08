@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                Data-UUID-Base64URLSafe
-version:             0.32
-abstract:            ~
+version:             0.33
+abstract:            URL-safe UUIDs
 license:             perl
 author:              
     - Leon Brocard <acme@astray.com>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
     Data::UUID:                    0

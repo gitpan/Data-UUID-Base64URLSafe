@@ -6,6 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Data::UUID::Base64URLSafe',
     VERSION_FROM => 'lib/Data/UUID/Base64URLSafe.pm',
+    ABSTRACT     => 'URL-safe UUIDs',
     LICENSE      => 'perl',
     AUTHOR       => 'Leon Brocard <acme@astray.com>',
     PREREQ_PM    => {

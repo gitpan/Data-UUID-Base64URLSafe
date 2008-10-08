@@ -4,7 +4,7 @@ use warnings;
 use Data::UUID;
 use MIME::Base64::URLSafe;
 use base qw(Data::UUID);
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 
 sub new {
     my $class = shift;
@@ -62,6 +62,8 @@ Leon Brocard, C<< <acme@astray.com> >>
 =head1 COPYRIGHT
 
 Copyright (C) 2008, Leon Brocard
+
+=head1 LICENSE
 
 This module is free software; you can redistribute it or modify it
 under the same terms as Perl itself.
